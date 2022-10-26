@@ -1,0 +1,7 @@
+nav{
+    background-color: red;
+    display: flex;
+    height: 62px;
+    place-items: center;
+    justify-content: space-between;
+}

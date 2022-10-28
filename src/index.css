@@ -17,10 +17,12 @@
 
 body {
   margin: 0;
+  padding: 0;
   display: grid;
-  grid-template-columns: 15% 70% 15%;
+  /* grid-template-columns: 15% fit-content(1fr) 15%; */
   /* place-items: center; */
-  min-width: 320px;
+  /* min-width: 320px; */
+  overflow-x: hidden;
   min-height: 100vh;
 }
 
@@ -88,3 +90,39 @@ button:focus-visible {
       grid-template-columns: 1% 1fr 1%;
   }
 }
+
+@media (min-width: 426px) and (max-width: 633px) {
+  body{
+      grid-template-columns: 5% 1fr 5%;
+  }
+}
+
+@media (min-width: 634px) and (max-width: 820px) {
+  body{
+      grid-template-columns: 10% 1fr 10%;
+  }
+}
+
+@media (min-width:821px) and (max-width: 1024px) {
+  body{
+    grid-template-columns: 12% 1fr 12%;
+  }
+}
+
+@media (min-width:1025px) and (max-width: 1600px) {
+  body{
+    grid-template-columns: 15% 1fr 15%;
+  }
+}
+
+@media(min-width: 1601px) {
+  body{
+    grid-template-columns: 15% 1fr 15%;
+  }
+}
+/* 
+@media (min-width: 1200px){
+  body{
+    grid-template-columns: 15% fit-content(70%) 15%;
+  }
+} */

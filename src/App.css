@@ -15,7 +15,9 @@
 }
 
 Footer{
+  display: flex;
   /* background: red; */
+  align-self: flex-end;
 }
 
 .logo {

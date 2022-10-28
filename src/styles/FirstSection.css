@@ -40,7 +40,7 @@
     }
 
     .first-section > picture > img {
-        max-width: 500px;
+        max-width: 400px;
     }
 
     .buttons-store {
@@ -62,7 +62,7 @@
     }
 
     .first-section>picture>img {
-        max-width: auto;
+        width: 300px;
     }
 }
 

@@ -24,7 +24,7 @@ function FirstSection(){
             <div className='left-section'>
                 <h1>Twitter Downloader</h1>
                 <h2 className='description'>Descarga Imágenes, Videos y gif fácilmente</h2>
-                <div className='buttons-store'>
+                <div className='stores'>
                     <MicrosoftStoreSVG/>
                     <AppStoreSVG/>
                     <GooglePlaySVG/>

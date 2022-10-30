@@ -1,7 +1,7 @@
+import MicrosoftStoreSVG from '../assets/img/svg/microsoft-store/microsoft-store';
+import AppStoreSVG from '../assets/img/svg/app-store/app-store';
+import GooglePlaySVG from '../assets/img/svg/google-play/google-play';
 
-import MicrosoftStore from '../assets/img/svg/microsoft-store.svg';
-import AppleStore from '../assets/img/svg/app-store.svg';
-import GooglePlay from '../assets/img/svg/google-play.svg';
 import Capture1Webp from '../assets/img/webp/capture1.webp';
 import Capture1Png from '../assets/img/png/capture1.png';
 
@@ -25,9 +25,9 @@ function FirstSection(){
                 <h1>Twitter Downloader</h1>
                 <h2 className='description'>Descarga Imágenes, Videos y gif fácilmente</h2>
                 <div className='buttons-store'>
-                    <img src={MicrosoftStore} alt="Microsoft Store"/>
-                    <img src={AppleStore} alt="Apple Store"/>
-                    <img src={GooglePlay} alt="Google Play"/>
+                    <MicrosoftStoreSVG/>
+                    <AppStoreSVG/>
+                    <GooglePlaySVG/>
                 </div>
             </div>
             <picture>

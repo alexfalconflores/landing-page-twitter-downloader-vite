@@ -1,0 +1,12 @@
+#app-store{
+    height: 50px;
+    /* width: 111px; */
+}
+
+#app-store > .background{
+    fill: var(--background-store-button);
+}
+
+#app-store > .color-font{
+    fill: var(--font-store-button);
+}

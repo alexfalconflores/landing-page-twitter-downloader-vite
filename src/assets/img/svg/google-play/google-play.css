@@ -1,0 +1,12 @@
+#google-play{
+    height: 50px;
+    /* width: 111px; */
+}
+
+#google-play > .background{
+    fill: var(--background-store-button);
+}
+
+#google-play > .color-font{
+    fill: var(--font-store-button);
+}

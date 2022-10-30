@@ -1,0 +1,27 @@
+#microsoft-store {
+    height: 50px;
+    /* width: 111px; */
+}
+#microsoft-store > .background{
+    fill: var(--background-store-button);
+}
+
+#microsoft-store > .color-font{
+    fill: var(--font-store-button);
+}
+
+#microsoft-store>.square-left-top {
+    fill: #F25022;
+}
+
+#microsoft-store>.square-right-top {
+    fill: #7FBA00;
+}
+
+#microsoft-store>.square-left-bottom {
+    fill: #00A4EF;
+}
+
+#microsoft-store>.square-right-bottom {
+    fill: #FFB900;
+}

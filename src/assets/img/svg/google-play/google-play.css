@@ -1,6 +1,5 @@
 #google-play{
-    height: 50px;
-    /* width: 111px; */
+    height: var(--banner-button-store-height);
 }
 
 #google-play > .background{

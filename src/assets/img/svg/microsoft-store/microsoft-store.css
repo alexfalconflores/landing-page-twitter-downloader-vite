@@ -1,6 +1,5 @@
 #microsoft-store {
-    height: 50px;
-    /* width: 111px; */
+    height: var(--banner-button-store-height);
 }
 #microsoft-store > .background{
     fill: var(--background-store-button);

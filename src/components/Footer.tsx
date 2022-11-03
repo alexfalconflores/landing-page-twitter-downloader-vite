@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <footer>
-            <p>👤 : Alex Stefano Falcon Flores</p>
+            <p>❤️ Made by Alex Stefano Falcon Flores</p>
             <p><a href="mailto:alexfalconflores@hotmail.com">✉️ : alexfalconflores@hotmail.com</a></p>
             <p id='copyright'>&copy; 2002-{year} Twitter Downloader. All rights reserved.</p>
         </footer>

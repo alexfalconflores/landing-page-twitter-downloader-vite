@@ -1,6 +1,5 @@
 #app-store{
-    height: 50px;
-    /* width: 111px; */
+    height: var(--banner-button-store-height);
 }
 
 #app-store > .background{
